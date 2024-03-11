@@ -32,8 +32,8 @@ body {
 
 .header__weather-details {
   max-width: 320px;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-left: 5%;
+  padding-top: 5%;
   position: relative;
 }
 
