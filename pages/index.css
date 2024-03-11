@@ -1,0 +1,10 @@
+@import url(../vendor/fonts.css);
+
+html {
+  font-family: Comforta;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: burlywood;
+}
