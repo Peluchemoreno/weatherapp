@@ -3,8 +3,71 @@
 html {
   font-family: Comforta;
   scroll-behavior: smooth;
+  height: 100%;
+  overflow:  hidden;
 }
 
 body {
+  height: 100%;
   background-color: burlywood;
+}
+
+.page {
+  margin: auto;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.header__current-temperature {
+  padding: 0;
+  margin: 0;
+  font-size: 80px;
+  display: inline-block;
+}
+
+.header__weather-details {
+  max-width: 320px;
+  padding-left: 50px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.header__current-description {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.header__current-image {
+  width: 150px;
+  position: absolute;
+  bottom: 2px;
+}
+
+.forecast__days {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.forecast__day {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.forecast__day-header {
+  margin: 0;
+  padding: 0;
+}
+
+.forecast__day-temperature {
+  font-size: 24px;
 }
